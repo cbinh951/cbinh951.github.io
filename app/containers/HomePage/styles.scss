@@ -1,0 +1,41 @@
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.my-app {
+  // height: 100%;
+  .ant-layout {
+    height: 100%;
+  }
+  .logo {
+    height: 64px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 45px;
+    font-weight: bold;
+    margin: auto;
+
+  }
+  .ls-header {
+    .img-logo {
+      width: 100px;
+      display: block;
+      margin: auto;
+      padding-top: 15px;
+    }
+  }
+}
+
+.wrapper-layout {
+  width: 100%;
+}

@@ -1,0 +1,62 @@
+{
+  "paperSize": [
+    {
+      "id": 1,
+      "name": "A3"
+    },
+    {
+      "id": 2,
+      "name": "A4"
+    },
+    {
+      "id": 3,
+      "name": "A5"
+    },
+    {
+      "id": 4,
+      "name": "A6"
+    }
+  ],
+  "paperType": [
+    {
+      "id": 1,
+      "name": "Plain paper"
+    },
+    {
+      "id": 2,
+      "name": "Glossy"
+    },
+    {
+      "id": 3,
+      "name": "Sparking"
+    }
+  ],
+  "inkType": [
+    {
+      "id": 1,
+      "name": "Water"
+    },
+    {
+      "id": 1,
+      "name": "Oil"
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "name": "Approved"
+    },
+    {
+      "id": 2,
+      "name": "New"
+    }
+  ],
+  "cost": {
+    "Glossy-A3-Water": {
+      "inkType": "Water",
+      "paperSize": "A3",
+      "paperType": "Glossy",
+      "price": "12000"
+    }
+  }
+}

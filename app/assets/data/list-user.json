@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Pham Binh",
+      "userName": "cbinh951@gmail.com",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Pham Nhan",
+      "userName": "nhan@gmail.com",
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Nguyen Hung",
+      "userName": "hung@gmail.com",
+      "isActive": true
+    }
+  ]
+}
