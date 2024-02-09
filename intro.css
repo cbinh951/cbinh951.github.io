@@ -500,7 +500,7 @@ body{
 }
 .box-button{
     position: absolute;
-    top: 75%;
+    top: 87%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     z-index: 10000;
@@ -1924,7 +1924,7 @@ body{
     }
     .box-button{
         position: absolute;
-        top: 90%;
+        top: 80%;
         left: 50%;
         transform: translate(-50%,-50%) scale(0);
         z-index: 10000;
