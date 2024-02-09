@@ -1,298 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <!-- Font -->
-
-    <link rel="preconnect" href="//fdn.fontcdn.ir">
-    <link rel="preconnect" href="//v1.fontapi.ir">
-    <link href="https://v1.fontapi.ir/css/SFMono" rel="stylesheet">
-
-    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
-
-
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono&display=swap"
-        rel="stylesheet">
-<!-- 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet"> -->
-
-    <!-- Custom style -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>Happy New Year 2024</title>
 </head>
-
 <body>
-    <div class="cyber-dino">
-        <div class="cyber-dino-header">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
-                <div class="cyber-dino-logo">
-                    <img src="image/svg/logo.svg" alt="">
-                </div>
-                <div id="navbarNav">
-                    <ul class="navbar-nav d-flex justify-content-between">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="cyber-dino-banner">
-            <div class="cycber-small">
-                <img src="image/svg/cycber-banner1.svg" alt="">
+    <div class="wrapper">
+        <h1>Thời gian chỉ còn...</h1>
+        <div class="box-time">
+            <div class="time">
+                <p>Ngày</p>
+                <span id="days">day</span>
             </div>
-            <div class="cycber-big">
-                <!-- <img src="image/svg/cycber-banner2.svg" alt=""> -->
-                <img id="cb-deco-big" src="image/svg/cycber-banner2.svg" alt="">
-                <img id="cb-deco-small" src="image/svg/cycber-banner2-1.svg" alt="">
+            <div class="time">
+                <p>Giờ</p>
+                <span id="hours">hours</span>
             </div>
-            <div class="col-md-5 banner-content">
-                <h5>WE ARE CYBERDINO.</h5>
-                <!-- <h1>Creative & awesome</h1> -->
-                <img src="image/svg/cyber-dino-title.svg" alt="">
-                <div class="description">
-                    <span>&#60;We build the game changer, connect & optimize your business with cutting-edge digitized
-                        solutions.&#62;</span>
-                </div>
+            <div class="time">
+                <p>Phút</p>
+                <span id="minutes">minute</span>
             </div>
-        </div>
-        <div class="cyber-dinor-content">
-            <div class="cyber-dino-about-us">
-                <div class="about-us-title col-md-7 offset-md-1">
-                    <h2 class="cyber-title">About us</h2>
-                    <p class="about-us-content">As a forward-thinking technology group, we aim to inspire our partners
-                        & customers by consistently achieving success through effective digital solutions.
-                    </p>
-                    <p class="about-us-content">
-                        We believe innovative technology is the key to solve even <br><span
-                            class="accent accent-bgr bold-text">the most
-                            challenging problems!</span></p>
-                </div>
-
-                <div class="about-us-our-mission">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-md-5 offset-md-1 col-12 position-relative">
-                            <div class="our-mission-text">
-                                <div class="highlight">
-                                    .Our mission {
-                                </div>
-                                <p>As a forward-thinking technology group, we are dedicated to utilizing <span
-                                        class="accent accent-bgr bold-text">innovative
-                                        technology </span>to solve some of the most challenging problems.</p>
-                                <p>We strive to consistently & persistently to achieve success
-                                    for our partners, customers & inspire them toward greater accomplishments.</p>
-                                <div class="highlight">
-                                    }
-                                </div>
-                            </div>
-                            <div class="binary-deco">
-                                101011101<br>
-                                101011101<br>
-                                000101110<br>
-                                100101111<br>
-                            </div>
-                            <!-- <div class="binary-bg">
-                                <img src="image/svg/binary.svg" alt="">
-                            </div> -->
-                        </div>
-                        <div class="our-mission-img col-md-6 col-12">
-                            <img src="image/svg/our-mission.svg" alt="mission image">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="about-us-our-values">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="our-mission-img col-md-5 offset-md-1 col-12">
-                            <img src="image/svg/our-value.svg" alt="mission image">
-                        </div>
-                        <div class="col-md-5 col-12 position-relative col-sm-12 col-xs-12">
-                            <div class="our-mission-text">
-                                <div class="highlight">
-                                    #Our values {
-                                </div>
-                                <p>Our team of highly qualified professionals with extensive international experience
-                                    in:<br>
-                                    <span class="accent accent-bgr bold-text">(--web and
-                                        mobile development + management, and product design)</span> can provide you with
-                                    the best
-                                    possible solution;
-                                </p>
-                                <p>At our company, we always prioritize customer success, providing premium services at
-                                    affordable prices. Trust us to optimize your operations & take your business to
-                                    the
-                                    next level.</p>
-                                <div class="highlight">
-                                    }
-                                </div>
-                                <div class="binary-deco pat-02">
-                                    101011101<br>
-                                    101011101<br>
-                                    000101110<br>
-                                    100101111<br>
-                                </div>
-                            </div>
-                            <!-- <div class="binary-bg">
-                                <img src="image/svg/binary.svg" alt="">
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cyber-dinor-services position-relative">
-                <div class="cyber-title text-center">
-                    <span>CBDN Services</span>
-                </div>
-                <div class="list-services offset-md-1">
-                    <div class="services-col col-md-4 align-self-end">
-                        <div class="service-item">
-                            <img src="image/svg/iot.svg" alt="">
-                            <div class="service-name">
-                                IOT
-                            </div>
-                            <div class="service-description">
-                                Internet of things
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <img src="image/svg/mobile.svg" alt="">
-                            <div class="service-name">
-                                Mobile application
-                            </div>
-                            <div class="service-description">
-                                IOS, Android
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services-col col-md-4">
-                        <div class="service-item">
-                            <img src="image/svg/solution.svg" alt="">
-                            <div class="service-name">
-                                Solution Consultant
-                            </div>
-                            <div class="service-description">
-                                Internet of things
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <img src="image/svg/erp.svg" alt="">
-                            <div class="service-name">
-                                ERP
-                            </div>
-                            <div class="service-description">
-                                Company management software
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services-col col-md-4 align-self-end">
-                        <div class="service-item">
-                            <img src="image/svg/system.svg" alt="">
-                            <div class="service-name">
-                                System Integration
-                            </div>
-                            <div class="service-description">
-                                K8s, Docker, CI/CD
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <img src="image/svg/data.svg" alt="">
-                            <div class="service-name">
-                                Data Analytics
-                            </div>
-                            <div class="service-description">
-                                Customized report, <br>Data infrastructure
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- list img bg -->
-                <!-- <div class="logical-bg">
-                    <img src="image/svg/logical.svg" alt="">
-                </div> -->
-                <div class="binary-deco pat-logical">
-                    .logical {<br>
-                    <span class="ml">size: infinity;</span><br>
-                    }<br>
-                </div>
-                <!-- <div class="creative-bg">
-                    <img src="image/svg/creative.svg" alt="">
-                </div> -->
-                <div class="binary-deco pat-creative">
-                    #creative {<br>
-                    <span class="ml">size: infinity;</span><br>
-                    }<br>
-                </div>
-                <div class="blur-bg">
-                </div>
-            </div>
-            <div class="cyber-dinor-features">
-                <div class="cyber-title text-center">
-                    CBCN Features
-                </div>
-                <div class="features-content">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="features-description offset-md-3">
-                                <img src="image/svg/coffee-solution-img.svg" alt="">
-                                <img src="https://img.icons8.com/fluency/96/null/coffee-maker.png" />
-                                <div class="binary-deco">
-                                    101011101<br>
-                                    101011101<br>
-                                    000101110<br>
-                                    100101111<br>
-                                </div>
-                                <div class="highlight">
-                                    Coffee Solution
-                                </div>
-                                <div class="features-text">
-                                    <p>
-                                        Coffee solution is a cyberdino project automatic 100% coffee shop workflow.
-                                    </p>
-                                    <p>Coffee users are able to directly interacting with the Coffee Brewer Robot &
-                                        bring
-                                        the result to you by Delivery robot with Face Recognition technology.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8 justify-content-center">
-                            <img src="image/svg/laptop.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contact mt-5">
-                <div class="col-md-3 offset-md-1">
-                    <div class="cyber-title">
-                        Contact Us
-                    </div>
-                    <div class="contact-description mt-3">
-                        <p>
-                            Address: 6 internal streets of My Toan 2, Tan Phong Ward, District 7, Ho Chi Minh City,
-                            Vietnam
-                        </p>
-                        <p>Email: <a href="mailto:admin@cyberdino.io">admin@cyberdino.io</a></p>
-                        <p>Phone: 098 803 2503</p>
-                    </div>
-                </div>
+            <div class="time">
+                <p>Giây</p>
+                <span id="seconds">seconds</span>
             </div>
         </div>
     </div>
 </body>
-
+<script src="app.js"></script>
 </html>

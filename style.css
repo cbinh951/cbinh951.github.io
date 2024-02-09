@@ -1,325 +1,73 @@
-body {
-    font-family: 'SF Mono', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.row {
-    margin: 0px;
-}
-
-
-/* TYPOGRAPHY */
-h1,
-h2,
-h3 {
-    font-family: 'SF Mono';
-    font-weight: 700;
-}
-
-p {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    color: #777777;
-    font-weight: 300;
-}
-
-.accent {
-    color: #00CFFF;
-}
-
-.accent-bgr {
-    background-color: #2384E4;
-    padding: 5px 10px;
-}
-
-.bold-text {
-    font-weight: 700;
-}
-
-.cyber-title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
-    color: #0078D4;
-}
-
-.highlight {
-    font-weight: bold;
-    line-height: 36px;
-    margin-bottom: 20px;
-    color: #00CFFF;
-    font-size: 28px;
-}
-
-.highlight ~ p {
-    margin-left: 20px;
-}
-
-/* Custom header */
-.cyber-dino-header .navbar {
-    padding-right: 12%;
-    padding-left: 5%;
-}
-
-.cyber-dino-header .navbar-nav {
-    width: 400px;
-}
-
-/* Banner css here */
-.cyber-dino-banner {
+body{
+    background-image: url('image/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     position: relative;
-    height: 700px;
-    background: linear-gradient(90deg, #0069D0 0%, #B0F0FF 100%);
-}
-
-.cyber-dino-banner .cycber-small {
-    position: absolute;
-    left: 0px;
-    top: 76px;
-    mix-blend-mode: color-dodge;
-}
-
-.cyber-dino-banner .cycber-big {
-    position: absolute;
-    left: 711px;
-    top: 37px;
-}
-
-.cyber-dino-banner .banner-content {
-    margin-left: 135px;
-    padding-top: 15%;
-    color: white;
-}
-
-.cyber-dino-banner .banner-content .description {
-    margin-left: 100px;
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 40px;
-    color: #FFFFFF;
-    letter-spacing: 3px;
-}
-
-/* Cyber dinor content css here */
-.cyber-dinor-content {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0px auto;
-}
-
-/* About us css here */
-.about-us-title {
-    margin-top: 70px;
-}
-
-.about-us-content {
-    font-family: 'Inter';
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 50px;
-    color: #777777;
-}
-
-.about-us-our-mission {
-    padding: 115px 0px;
-}
-
-.about-us-our-values {
-    margin: 65px 0px 100px;
-}
-
-.our-mission-text {
-    width: 60%;
-}
-
-.binary-bg {
-    position: absolute;
-    bottom: 0px;
-    right: 50px;
-}
-
-/* Services css here */
-.cyber-dinor-services {
-    padding-bottom: 100px;
-}
-
-.list-services {
-    margin-top: 110px;
-    width: 53%;
-    min-width: 740px;
-    height: 690px;
     display: flex;
-    flex-direction: row;
-}
-
-.services-col {
-    justify-content: center;
-}
-
-.service-name {
-    font-family: 'SF Mono';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-}
-
-.service-item {
-    width: 220px;
-    height: 220px;
-    background: #FFFFFF;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    gap: 10px;
-    margin-bottom: 40px;
-    background: #fff;
-    text-align: center;
 }
-
-.service-description {
-    font-family: 'Inter';
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    color: #777777;
-}
-
-.logical-bg {
-    position: absolute;
-    top: 150px;
-    left: 45%;
-    z-index: -1; 
-}
-
-.creative-bg {
-    position: absolute;
-    bottom: 140px;
-    right: 4%;
-    z-index: -1; 
-}
-
-.blur-bg {
-    position: absolute;
-    width: 587px;
-    height: 587px;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: -1;
-    background: rgba(157, 237, 255, 0.3);
-    filter: blur(100px);
-}
-
-/* Features css here */
-.features-content {
-    margin-top: 100px;
-    background-image: url("images/svg/bg-feature.svg");
-    padding-bottom: 100px;
-}
-
-.features-description {
-    width: 60%;
-}
-
-.features-description p {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 300;
-}
-
-/* Contact us css here */
-.contact p {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 300;
-}
-
-.contact a {
-    color: #00CFFF;
-    text-decoration-line: underline;
-}
-
-.contact-description {
-    width: 70%;
-}
-
-
-/* DECO PATTERN */
-
-.binary-deco {
-    font-family: 'SF Mono';
-    font-size: 48px;
-    line-height: 64px;
-    font-weight: 700;
-    color: #00CFFF;
-    opacity: 10%;
-    z-index: -1;
-
-    position: absolute;
-    top: 300px;
-    left: 250px;
-}
-
-.pat-02 {
-    color: #2384E4;
-    top: 350px;
-    left: 270px;
-}
-
-.pat-logical {
-    color: #2384E4;
-    top: 12%;
-    left: 45%;
-    opacity: 30%;
-}
-
-.ml {
-    margin-left: 30px;
-}
-
-.pat-creative {
-    color: #FFE49D;
-    top: 67%;
-    left: 62%;
-    opacity: 80%;
-}
-
-.cyber-dino-logo img {
-    height: 40px; 
-}
-
-/* .cyber-dino-header {
-    position: fixed;
-} */
-
-#cb-deco-big {
+.wrapper{
     position: relative;
-    top: 50px;
-    left: 10%;
-    mix-blend-mode: screen;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 80px;
 }
-
-#cb-deco-small {
+.wrapper h1{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.wrapper .box-time{
     position: relative;
-    top: 20px;
-    right: 100px;
-    mix-blend-mode: screen;
-    opacity: 20%;
+    display: flex;
+    line-height: normal;
+    width: 530px;
+    justify-content: space-between;
 }
-
-.cycber-small img {
+.box-time .time{
     position: relative;
-    left: 50px;
-    opacity: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(216, 48, 48);
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fff,
+            0 0 40px #fff;
 }
-
-
-
+.box-time .time::before{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    border: 11px solid rgb(251, 255, 0);
+    box-shadow: inset 0 0 10px #333;
+    border-radius: 50%;
+}
+.box-time .time p{
+    font-size: 35px;
+    font-family: 'Caramel', cursive;
+}
+.box-time .time span{
+    padding: 10px 0px;
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+}
